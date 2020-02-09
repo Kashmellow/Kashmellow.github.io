@@ -60,7 +60,7 @@
   
   header span {
     font-size: 1.5em;
-    color: rgb(238, 153, 195);
+    color: rgb(85, 163, 115);
   }
   
   nav {
@@ -99,7 +99,7 @@
     nav::before {
       content: 'SHOW MENU';
       color: #fff;
-      background: #000;
+      background: rgb(230, 212, 212);
       font-weight: bold;
       padding: 0.5em 2em;
     }
@@ -127,6 +127,7 @@
   section > p {
     margin: 1em 0;
   }
+
   
   section ul {
     padding-left: 1.5em;
@@ -140,7 +141,17 @@
     color: #09f;
   }
   
+  #aboutMe {
+    border-radius:25px;
+    background: rgb(85, 163, 115);
+    padding: 1em;
+  }
   
+  #myProjects {
+    border-radius:25px;
+    background: rgb(85, 163, 115);
+    padding: 1em;
+  }
   #projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -165,6 +176,11 @@
     display: none;
   }
   
+ #Connect {
+  border-radius:25px;
+  background: rgb(85, 163, 115);
+  padding: 1em;
+ } 
   
   @media screen and (max-width: 40em) {
     #projects {
