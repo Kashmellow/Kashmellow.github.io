@@ -284,15 +284,10 @@ body {
     background: #ccc;
   }
   
-  
-  
-  
-  
-  
   footer {
     margin-top: 2em;
     margin-bottom: 1em;
-    background: #666;
+    background: rgba(98, 96, 99, 0.767);
     color: #fff;
     padding: 1em 0;
     text-align: center;
